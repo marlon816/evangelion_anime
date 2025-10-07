@@ -1,0 +1,206 @@
+
+/*papel de parede*/
+     .painel {
+    background:url("../img/00.png");
+   background-repeat:no-repeat;
+   background-attachment:scroll;
+
+  
+
+
+}
+body{
+  background-color:darkblue;
+}
+    /*cabeçalho*/
+    header{
+      font-size:4em;
+      background-color:#00008B;
+      color:#7CFC00;
+      padding:50px;
+      max-width:100%;
+
+    }
+    /*rodapé*/
+    footer{
+      font-size:4em;
+      background-color:#00008B;
+      color: #7CFC00;
+      padding:50px;
+      max-width:100%;
+    }
+    /*imagem dos card*/
+      .img-cartão{
+        width:100%;
+        height:100%;
+      }
+      
+
+  
+    
+
+     
+      /*barra de navegação*/
+      .cor-barra-navegacao{
+        background:white;
+        margin:5px ;
+      }
+
+        .botao-navega{
+          background:#DC143C;
+          color:black;
+          
+
+        }
+        .botao-navegadrop:hover{
+          background:#DC143C;
+          color:black;
+
+        }
+ 
+      
+      .largura-nave{
+       max-width:100%;
+      
+      }
+      .espaçamento-menu-nav{
+        margin:5px 20px;
+      }
+
+      /*configuração do botão*/
+      .btn-personalizado{
+        background:blue;
+        color:white;
+        border-radius:500px;
+        width:70%;
+        font-size:120%;
+        text-decoration:none;
+      }
+       .cor1:hover{
+        background:#DC143C;
+        color: black;
+        transition: background 2s;
+      }
+
+       /*---para tela de telefone-------*/
+       @media (max-width: 576.98px) {
+
+   
+
+    /*cabeçalho*/
+    header{
+      font-size:4em;
+      background-color:#00008B;
+      color:#7CFC00;
+      padding:50px;
+      width:600%;
+
+    }
+    /*rodapé*/
+    footer{
+      font-size:4em;
+      background-color:#00008B;
+      color:#7CFC00;
+      padding:50px;
+       width:600%;
+    }
+
+        .largura-nave{
+       width:590%;
+
+        }
+     
+        
+        
+    h3{
+      font-size: 20%;
+    }
+      
+      /*botão*/
+
+      /*configuração do botão*/
+      .btn-personalizado{
+        background:blue;
+        color:white;
+        
+        width:100%;
+        font-size:20%;
+        text-decoration:none;
+      }
+    }
+
+        /*---para tela grande de telefone -------*/
+      @media (min-width: 576px) and (max-width:767.98px) { 
+  h3{
+      font-size: 20%;
+    }
+      
+      /*botão*/
+
+      /*configuração do botão*/
+      .btn-personalizado{
+        background:blue;
+        color:white;
+        border-radius:500px;
+        width:100%;
+        font-size:70%;
+        text-decoration:none;
+      }
+
+
+     /*cabeçalho*/
+    header{
+      font-size:4em;
+      background-color:#00008B;
+      color:#7CFC00;
+      padding:50px ;
+      width:300%;
+
+     }
+      /*rodapé*/
+    footer{
+      font-size:4em;
+      background-color:#00008B;
+      color:#7CFC00;
+      padding:50px;
+       width:300%;
+    }
+
+     .largura-nave{
+       width:295%;
+     }
+
+   }
+
+  @media (min-width: 768px) and (max-width: 1199.98px) { 
+
+   
+
+
+     /*cabeçalho*/
+    header{
+      font-size:4em;
+      background-color:#00008B;
+      color:#7CFC00;
+      padding:50px ;
+      width:272%;
+
+     }
+      /*rodapé*/
+    footer{
+      font-size:4em;
+      background-color:#00008B;
+      color:#7CFC00;
+      padding:50px;
+       width:272%;
+    }
+
+     .largura-nave{
+       width:270%;
+     }
+
+   }
+
+
+      
+       

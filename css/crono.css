@@ -1,0 +1,342 @@
+
+/*papel de parede*/
+   .painel {
+background-image: url('../img/01.png');
+   background-repeat:no-repeat;
+   background-attachment:fixed;
+  position:relative;
+  left:0px;
+   background-color:black;
+   background-size:contain;
+
+}
+body{
+  background-color:black;
+}
+    /*carrosel*/
+    .botao-carosel{
+      color:black;
+      font-size:40px;
+     
+    }
+
+         .cor-texto{
+      color:white;
+      font-size :120%;}
+
+    /*cabeçalho*/
+    header{
+      font-size:4em;
+      background-color:#4B0082;
+      color:lightgreen;
+      padding:50px;
+      max-width:100%;
+
+    }
+    /*rodapé*/
+    footer{
+      font-size:4em;
+      background-color:#4B0082;
+      color: green;
+      padding:50px;
+      max-width:100%;
+    }
+    /*imagem dos card*/
+      .img-cartão{
+        width:100%;
+        height:100%;
+      }
+      .img-cartão2{
+        width:100%;
+        height:700px;
+        
+        
+      }
+
+      /*posição dos card*/
+      .posição{
+        display:inline-block;
+        position:relative;
+        left:30%;
+        top:0px;
+      }
+      .posição2{
+        display:inline-block;
+         left:70%;
+         top:100px;
+      }
+      .posição3{
+        display:inline-block;
+        position:relative;
+        left:150%;
+        top:90px;
+      }
+      /*barra de navegação*/
+      .cor-barra-navegacao{
+        background:#00FF00;
+        margin:5px ;
+      }
+
+        .botao-navega{
+          background:#FFA500;
+          color:black;
+          
+
+        }
+        .botao-navega:hover{
+            background:#FF8C00;
+             color:black;
+
+        }
+  
+        .botao-navegadrop:hover{
+          background:#FF8C00;
+          color:black; 
+
+        }
+      
+      
+      .largura-nave{
+       max-width:100%;
+      
+      }
+      .espaçamento-menu-nav{
+        margin:5px 10px;
+      }
+
+      /*configuração do botão*/
+      .btn-personalizado{
+        background:red;
+        color:white;
+        
+      }
+       .cor1:hover{
+        background:black;
+        color: white;
+        transition: background 2s;
+      }
+
+      /* tabela*/
+
+
+      .ta{
+        color:white;
+        
+        font-size:25px;
+      }
+
+      .th1{
+        color:#9400D3;
+      }
+      .td1{
+        color:red;
+      }
+      .td1{
+           background: -webkit-linear-gradient(top,orange 50%, red 50%);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+
+      }
+       .td2{
+           background: -webkit-linear-gradient(top,#87CEFA 50%, #4169E1 50%);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+
+      }
+
+      .td3{
+        background: -webkit-linear-gradient(left,white 40%, #708090 60%, white 20%);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       text-align:center;
+      }
+
+       .td4{
+        background: -webkit-linear-gradient(left,red 74%, white 20%);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       
+      }
+      .td5{
+        color:#C0C0C0;
+       
+      }
+      .td6{
+        color:#00FA9A;
+        text-align:center;
+      }
+      .td7{
+        color:#FF7F50;
+        text-align:center;
+      }
+      .td8{
+        color:#00FFFF;;
+        text-align:center;
+      }
+      .td9{
+        color:gold;
+        text-align:center;
+      }
+      .td10{
+        color:#FF8C00;
+        text-align:center;
+      }
+
+      th{
+        text-align:center;
+         font-size:30px;
+
+      }
+      
+    
+      /*---para tela de telefone-------*/
+
+    
+       @media (max-width: 575.98px) { 
+             /*papel de parede*/
+    .painel {
+background-image: url('../img/01.png');
+   background-repeat:no-repeat;
+   background-attachment:scroll;
+  position:relative;
+  left:0px;
+background-size:contain;
+background-color:black;
+
+}
+
+      td {
+        font-size:70%;
+      }
+  header{
+      font-size:4em;
+      background-color:#4B0082;
+      color:lightgreen;
+      padding:50px;
+      
+
+    }
+    /*rodapé*/
+    footer{
+      font-size:4em;
+      background-color:#4B0082;
+      color: green;
+      padding:50px;
+      
+    }
+
+          .posição{
+        display:inline-block;
+        position:relative;
+        left:60px;
+        top:0px;
+      }
+      .posição2{
+        display:inline-block;
+        position:relative;
+         left:60px;
+         top:100px;
+      }
+      .posição3{
+        display:inline-block;
+        position:relative;
+        left:60px;
+        top:100px;
+      }
+
+         .cor-texto{
+      color:white;
+      font-size :70%;
+    }
+     .config-texto{
+      padding:20px 20px;
+      background:black;
+      opacity:0.9;
+
+    }
+
+  }
+        /*---para tela grande de telefone -------*/
+      @media (min-width: 576px) and (max-width: 767.98px) { 
+
+   
+ /*papel de parede*/
+     .painel {
+background-image: url('../img/01.png');
+   background-repeat:no-repeat;
+   background-attachment:fixed;
+  position:relative;
+  left:0px;
+background-size:contain;
+background-color:black;
+
+}
+
+          .posição{
+        display:inline-block;
+        position:relative;
+        left:0px;
+        top:0px;
+      }
+      .posição2{
+        display:inline-block;
+        position: relative;
+         left:250%;
+         top:150px;
+      }
+      .posição3{
+        display:inline-block;
+        position:relative;
+        left:550%;
+        top:100px;
+      }
+        .cor-texto{
+      color:white;
+      font-size :16px;
+    }
+
+     /*cabeçalho*/
+    header{
+      font-size:4em;
+      background-color:#4B0082;
+      color:lightgreen;
+      padding:50px;
+      width:120%;
+
+        }
+        /*rodapé*/
+        footer{
+          font-size:4em;
+          background-color:#4B0082;
+          color: green;
+          padding:50px;
+           width:120%;
+        }
+    .largura-nave{
+           width:110%;
+          
+          }
+      
+      /*tipografia*/
+      h3{
+        font-size: 3em;
+        color:#4B0082;
+      }
+      .config-texto{
+          padding:20px 20px;
+          background:black;
+          opacity:0.9;
+
+        }
+        .cor-texto{
+          color:white;
+          font-size :20px;
+        }
+
+}
+
+
+  
+
+      
+       

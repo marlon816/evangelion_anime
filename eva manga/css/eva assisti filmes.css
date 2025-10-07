@@ -1,0 +1,269 @@
+
+/*papel de parede*/
+  .painel{
+   background:url("../img/the end.jpg");
+   background-repeat:no-repeat;
+   background-attachment:fixed;
+ position:relative;
+ left:5%;
+  max-width:100%
+
+}
+body{
+   background:linear-gradient( to right,black,white); 
+}
+
+    /*carrosel*/
+    .botao-carosel{
+      color:red;
+      font-size:40px;
+     
+    }
+
+    /*cabeçalho*/
+    header{
+      font-size:4em;
+      background:linear-gradient( to right,black,white); 
+      color:black;
+      padding:50px ;
+      max-width:100%
+
+    }
+    /*rodapé*/
+    footer{
+      font-size:4em;
+      background:black; 
+      color: white;
+      padding:50px;
+       max-width:100%
+    }
+    /*imagem dos card*/
+      .img-cartão{
+        width:100%;
+        height:100%;
+      }
+      .img-cartão2{
+        width:100%;
+        height:700px;
+        
+        
+      }
+
+      /*posição dos card*/
+      .posição{
+        display:inline-block;
+        position:relative;
+        left:30%;
+        top:0px;
+      }
+      .posição2{
+        display:inline-block;
+         left:70%;
+         top:100px;
+      }
+      .posição3{
+        display:inline-block;
+        position:relative;
+        left:150%;
+        top:90px;
+      }
+      /*barra de navegação*/
+      .cor-barra-navegacao{
+        background:linear-gradient( to left,black,white); 
+        margin:5px ;
+      }
+
+        .botao-navega{
+          background:black;
+          color:white;
+          
+
+        }
+        .botao-navegadrop:hover{
+          background:black;
+          color:white;
+
+        }
+ 
+      
+      .largura-nave{
+        max-width:100%
+      
+      }
+      .espaçamento-menu-nav{
+        margin:5px 20px;
+      }
+
+      /*configuração do botão*/
+      .btn-personalizado{
+        background-color:red;
+        color:black;
+        font-size:25px;
+        
+      }
+       .cor1:hover{
+        background:black;
+        color: white;
+        transition: background 2s;
+      }
+    /*---para tela de telefone-------*/
+       @media (max-width: 575.98px) { 
+        /*papel de parede*/
+       .painel{
+   background:url("../img/the end.jpg");
+   background-repeat:no-repeat;
+   background-attachment:scroll;
+ background-size:contain;
+ position:relative;
+ left:0%;
+
+}
+        header{
+      font-size:4em;
+      background-color:#000080;
+      color:#DC143C;
+      padding:50px ;
+       max-width:100%
+
+     }
+         /*rodapé*/
+        footer{
+          font-size:4em;
+          background-color:black;
+          color:white;
+          padding:50px;
+           max-width:100%
+    }
+          .posição{
+        display:inline-block;
+        position:relative;
+        left:0%;
+        top:0%;
+      }
+      .posição2{
+        display:inline-block;
+        position:relative;
+         left:60px;
+         top:100px;
+      }
+      .posição3{
+        display:inline-block;
+        position:relative;
+        left:60px;
+        top:100px;
+      }
+
+        }
+        /*---para tela grande de telefone -------*/
+      @media (min-width: 576px) and (max-width: 767.98px) { 
+
+        /*papel de parede*/
+         .painel{
+   background:url("../img/the end.jpg");
+   background-repeat:no-repeat;
+   background-attachment:fixed;
+ background-size:contain;
+ position:relative;
+ left:5%;
+
+}
+
+       
+          .posição{
+        display:inline-block;
+        position:relative;
+        left:0px;
+        top:0px;
+      }
+      .posição2{
+        display:inline-block;
+        position: relative;
+         left:250%;
+         top:150px;
+      }
+      .posição3{
+        display:inline-block;
+        position:relative;
+        left:550%;
+        top:100px;
+      }
+
+     /*cabeçalho*/
+    header{
+      font-size:4em;
+       background-color:#000080;
+      color:#DC143C;
+      padding:50px ;
+       max-width:100%
+
+     }
+        /*rodapé*/
+        footer{
+          font-size:4em;
+         background-color:black;
+          color:white;
+          padding:50px;
+          max-width:100%
+    }
+
+     .largura-nave{
+       max-width:100%
+
+       }
+     }
+     @media (min-width: 768px) and (max-width: 991.98px) {
+
+     /*papel de parede*/
+        .painel{
+   background:url("../img/the end.jpg");
+   background-repeat:no-repeat;
+   background-attachment:fixed;
+ background-size:contain;
+ position:relative;
+ left:5%;
+
+}
+ 
+             .posição{
+        display:inline-block;
+        position:relative;
+        left:0px;
+        top:0px;
+      }
+      .posição2{
+        display:inline-block;
+        position: relative;
+         left:250%;
+         top:150px;
+      }
+      .posição3{
+        display:inline-block;
+        position:relative;
+        left:550%;
+        top:100px;
+      }
+
+     /*cabeçalho*/
+    header{
+      font-size:4em;
+      background-color:#000080;
+      color:#DC143C;
+      padding:50px ;
+      max-width:100%
+
+     }
+        /*rodapé*/
+        footer{
+          font-size:4em;
+         background-color:black;
+          color:white;
+          padding:50px;
+            max-width:100%
+    }
+
+     .largura-nave{
+        max-width:100%
+
+       }
+     }
+

@@ -1,0 +1,146 @@
+
+body{
+  background-color:darkred;
+ 
+}
+
+    /*cabeçalho*/
+    header{
+      font-size:4em;
+      background-color:red;
+      color: #00FF00;
+      padding:50px ;
+      max-width:100%;
+
+    }
+    /*rodapé*/
+    footer{
+      font-size:4em;
+      background-color:yellow;
+      color: #00FF00;
+      padding:50px;
+      max-width:100%;
+    }
+   
+
+      /*barra de navegação*/
+      .cor-barra-navegacao{
+        background:#FFA500;
+        margin:5px ;
+      }
+
+        .botao-navega{
+          background:yellow;
+          color:black;
+          
+
+        }
+        .botao-navegadrop:hover{
+          background:yellow;
+          color:black;
+
+        }
+
+ 
+      
+      .largura-nave{
+      max-width:100%;
+      
+      }
+      .espaçamento-menu-nav{
+        margin:5px 20px;
+      }
+
+      /*configuração do botão*/
+      .btn-personalizado{
+        background:red;
+        color:white;
+        border-radius:500px;
+        max-width:100%;
+        font-size:100%;
+        text-decoration:none;
+      }
+       .cor1:hover{
+        background:darkred;
+        color: #00FF00;
+        transition: background 2s;
+      }
+      
+    
+      /*---para tela de telefone-------*/
+       @media (max-width: 575.98px) { 
+
+
+    /*tipografia*/
+    h3{
+      font-size:25%;
+    }
+     .btn-personalizado{
+        background:red;
+        color:white;
+        border-radius:100px;
+        max-width:100%;
+        font-size:15%;
+        text-decoration:none;
+      }
+      
+   
+    }
+
+        /*---para tela grande de telefone -------*/
+      @media (min-width: 576px) and (max-width:767.98px) {
+
+ h3{
+      font-size:50%;
+    }
+     .btn-personalizado{
+        background:red;
+        color:white;
+        border-radius:220px;
+        max-width:100%;
+        font-size:30%;
+        text-decoration:none;
+      }
+      }   
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+     h3{
+      font-size:100%;
+    }
+     .btn-personalizado{
+        background:red;
+        color:white;
+        border-radius:400px;
+        max-width:100%;
+        font-size:80%;
+        text-decoration:none;
+      }
+
+
+         }
+   @media (min-width: 992px) and (max-width: 1199.98px) {
+
+     h3{
+      font-size:100%;
+    }
+     .btn-personalizado{
+        background:red;
+        color:white;
+        border-radius:400px;
+        max-width:100%;
+        font-size:90%;
+        text-decoration:none;
+      }
+      
+
+   }
+
+
+  
+ 
+  
+
+      
+       
+
+       
